@@ -6331,6 +6331,63 @@ public final class net/mamoe/mirai/utils/RemoteFile$ProgressionCallback$Companio
 	public static synthetic fun asProgressionCallback$default (Lnet/mamoe/mirai/utils/RemoteFile$ProgressionCallback$Companion;Lkotlinx/coroutines/channels/SendChannel;ZILjava/lang/Object;)Lnet/mamoe/mirai/utils/RemoteFile$ProgressionCallback;
 }
 
+public final class net/mamoe/mirai/utils/SecretsProtection$EscapedByteBuffer {
+	public static final field Companion Lnet/mamoe/mirai/utils/SecretsProtection$EscapedByteBuffer$Companion;
+	public static final synthetic fun box-impl (Ljava/nio/ByteBuffer;)Lnet/mamoe/mirai/utils/SecretsProtection$EscapedByteBuffer;
+	public static fun constructor-impl (Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+	public fun equals (Ljava/lang/Object;)Z
+	public static fun equals-impl (Ljava/nio/ByteBuffer;Ljava/lang/Object;)Z
+	public static final fun equals-impl0 (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Z
+	public final fun getData ()Ljava/nio/ByteBuffer;
+	public fun hashCode ()I
+	public static fun hashCode-impl (Ljava/nio/ByteBuffer;)I
+	public fun toString ()Ljava/lang/String;
+	public static fun toString-impl (Ljava/nio/ByteBuffer;)Ljava/lang/String;
+	public final synthetic fun unbox-impl ()Ljava/nio/ByteBuffer;
+}
+
+public final class net/mamoe/mirai/utils/SecretsProtection$EscapedByteBuffer$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class net/mamoe/mirai/utils/SecretsProtection$EscapedByteBufferSerializer : kotlinx/serialization/KSerializer {
+	public static final field INSTANCE Lnet/mamoe/mirai/utils/SecretsProtection$EscapedByteBufferSerializer;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public fun deserialize-vlT4FJs (Lkotlinx/serialization/encoding/Decoder;)Ljava/nio/ByteBuffer;
+	public fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun serialize-D52E_HU (Lkotlinx/serialization/encoding/Encoder;Ljava/nio/ByteBuffer;)V
+}
+
+public final class net/mamoe/mirai/utils/SecretsProtection$EscapedString {
+	public static final field Companion Lnet/mamoe/mirai/utils/SecretsProtection$EscapedString$Companion;
+	public static final synthetic fun box-impl (Ljava/nio/ByteBuffer;)Lnet/mamoe/mirai/utils/SecretsProtection$EscapedString;
+	public static fun constructor-impl (Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+	public fun equals (Ljava/lang/Object;)Z
+	public static fun equals-impl (Ljava/nio/ByteBuffer;Ljava/lang/Object;)Z
+	public static final fun equals-impl0 (Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Z
+	public static final fun getAsString-impl (Ljava/nio/ByteBuffer;)Ljava/lang/String;
+	public final fun getData ()Ljava/nio/ByteBuffer;
+	public fun hashCode ()I
+	public static fun hashCode-impl (Ljava/nio/ByteBuffer;)I
+	public fun toString ()Ljava/lang/String;
+	public static fun toString-impl (Ljava/nio/ByteBuffer;)Ljava/lang/String;
+	public final synthetic fun unbox-impl ()Ljava/nio/ByteBuffer;
+}
+
+public final class net/mamoe/mirai/utils/SecretsProtection$EscapedString$Companion {
+	public final fun serializer ()Lkotlinx/serialization/KSerializer;
+}
+
+public final class net/mamoe/mirai/utils/SecretsProtection$EscapedStringSerializer : kotlinx/serialization/KSerializer {
+	public static final field INSTANCE Lnet/mamoe/mirai/utils/SecretsProtection$EscapedStringSerializer;
+	public synthetic fun deserialize (Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
+	public fun deserialize-JIj9kN4 (Lkotlinx/serialization/encoding/Decoder;)Ljava/nio/ByteBuffer;
+	public fun getDescriptor ()Lkotlinx/serialization/descriptors/SerialDescriptor;
+	public synthetic fun serialize (Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
+	public fun serialize-nTZbNTk (Lkotlinx/serialization/encoding/Encoder;Ljava/nio/ByteBuffer;)V
+}
+
 public final class net/mamoe/mirai/utils/SilentLogger : net/mamoe/mirai/utils/PlatformLogger {
 	public static final field INSTANCE Lnet/mamoe/mirai/utils/SilentLogger;
 	public fun debug0 (Ljava/lang/String;)V
